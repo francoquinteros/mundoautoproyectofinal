@@ -1,0 +1,47 @@
+:root {
+  --color-primario: #d32020;
+  --color-fondo-footer: #414141;
+  --color-texto-claro: #ccc;
+}
+
+header.presentacion {
+  position: relative;
+  height: 600px;
+  background: url("../img/bienvenida.jpg") center/cover no-repeat;
+}
+
+header.presentacion .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+
+.sobre-nosotros h2 {
+  border-bottom: 3px solid var(--color-primario);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.sobre-nosotros img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: var(--color-fondo-footer);
+}
+
+footer h4 {
+  border-bottom: 3px solid var(--color-primario);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+footer p {
+  color: var(--color-texto-claro);
+}
+
+@media (max-width: 768px) {
+  header.presentacion {
+    height: 400px;
+  }
+}
