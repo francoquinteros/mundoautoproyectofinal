@@ -7,7 +7,7 @@
 header.presentacion {
   position: relative;
   height: 600px;
-  background: url("../img/bienvenida.jpg") center/cover no-repeat;
+  background: url("images/img--bienvenida\ 2.jpg") center/cover no-repeat;
 }
 
 header.presentacion .overlay {

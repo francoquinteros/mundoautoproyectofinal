@@ -1,0 +1,112 @@
+header.presentacion {
+  position: relative;
+  height: 600px;
+  background: url("../images/img--bienvenida 2.jpg") center/cover no-repeat;
+}
+header.presentacion .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+@media (max-width: 768px) {
+  header.presentacion {
+    height: 400px;
+  }
+}
+
+footer {
+  background-color: #414141;
+}
+footer h4 {
+  border-bottom: 3px solid #d32020;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+footer p {
+  color: #ccc;
+}
+
+.sobre-nosotros h2 {
+  border-bottom: 3px solid #d32020;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.sobre-nosotros img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.sobre-nosotros img:hover {
+  transform: scale(1.05);
+}
+
+.autos-presentacion {
+  background: url("../images/autos-header.jpg") center/cover no-repeat;
+  position: relative;
+  height: 400px;
+}
+.autos-presentacion .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .autos-presentacion {
+    height: 300px;
+  }
+}
+
+.autos-lista article {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.autos-lista article:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.ruedas h1 {
+  color: #d32020;
+  font-weight: bold;
+}
+.ruedas p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.ruedas img {
+  border: 3px solid #d32020;
+  transition: transform 0.3s ease;
+}
+.ruedas img:hover {
+  transform: scale(1.05);
+}
+
+.volantes h1 {
+  color: #d32020;
+  font-weight: bold;
+}
+.volantes p.lead {
+  color: #ccc;
+}
+.volantes img {
+  border: 2px solid #d32020;
+  transition: transform 0.3s ease;
+}
+.volantes img:hover {
+  transform: scale(1.05);
+}
+
+.butacas h1 {
+  color: #d32020;
+  font-weight: bold;
+}
+.butacas p {
+  color: #ccc;
+}
+.butacas img {
+  border: 2px solid #d32020;
+  transition: transform 0.3s ease;
+}
+.butacas img:hover {
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=style.css.map */

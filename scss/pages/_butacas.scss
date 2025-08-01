@@ -1,0 +1,21 @@
+@use "../base/variables" as *;
+
+.butacas {
+  h1 {
+    color: $color-primario;
+    font-weight: bold;
+  }
+
+  p {
+    color: $color-texto-claro;
+  }
+
+  img {
+    border: 2px solid $color-primario;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

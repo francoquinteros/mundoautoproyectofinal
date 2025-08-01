@@ -1,0 +1,28 @@
+@use "../base/variables" as vars;
+
+.autos-presentacion {
+  background: url("../images/autos-header.jpg") center/cover no-repeat;
+  position: relative;
+  height: 400px;
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    height: 300px;
+  }
+}
+
+.autos-lista {
+  article {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    }
+  }
+}

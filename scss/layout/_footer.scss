@@ -1,0 +1,15 @@
+@use "../base/variables" as vars;
+
+footer {
+  background-color: vars.$color-fondo-footer;
+
+  h4 {
+    border-bottom: 3px solid vars.$color-primario;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  p {
+    color: vars.$color-texto-claro;
+  }
+}

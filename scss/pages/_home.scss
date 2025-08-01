@@ -1,0 +1,19 @@
+@use "../base/variables" as vars;
+
+.sobre-nosotros {
+  h2 {
+    border-bottom: 3px solid vars.$color-primario;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
