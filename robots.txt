@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://maximo1234567.github.io/burgeland/sitemap.xml
+Sitemap: https://francoquinteros.github.io/mundoautoproyectofinal/sitemap.xml
+
