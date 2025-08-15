@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maximo1234567.github.io/burgeland/sitemap.xml

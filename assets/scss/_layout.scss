@@ -1,0 +1,7 @@
+.container-narrow{width:min(980px,92%);margin-inline:auto}
+.card{border-radius:var(--radius);box-shadow:$shadow;background:#fff;overflow:clip}
+.grid{display:grid;gap:1rem}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+@media (max-width:$bp-lg){.grid-3{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:$bp-md){.grid-3{grid-template-columns:1fr}}
+.section{padding-block:clamp(2rem,1.5rem + 2vw,4rem)}
